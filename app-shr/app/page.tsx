@@ -1,9 +1,12 @@
 import React from 'react'
 
 const page = () => {
+   const a="hey"
+    const b="Sakshi"
   return (
+   
     <div>
-      page
+      {a} {b}
     </div>
   )
 }
