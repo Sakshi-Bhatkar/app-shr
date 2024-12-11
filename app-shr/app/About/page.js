@@ -1,9 +1,11 @@
+import Header from '@/Components/Header'
 import React from 'react'
 
 const about = () => {
   return (
     <div>
-      about us page
+    
+     About us page
     </div>
   )
 }

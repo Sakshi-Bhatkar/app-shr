@@ -1,16 +1,13 @@
 import React from 'react'
-
-const Header = (props) => {
+import Link from 'next/link'
+const Header = () => {
     
   return (
     <div className= 'h-16 px-5 bg-blue-300 flex items-center justify-between'>
-      <h2>{props.user}</h2>
-      <div className='flex gap-8'>
-        <h4>About</h4>
-        <h4>Contact</h4>
-        <h4>Blog</h4>
-        <h4>{props.Author}</h4>
-      </div>
+      <h2>Logo</h2>
+      <Link href="/About">About</Link>
+      <Link href="/Product">Product</Link>
+      <Link href="/Course">Course</Link>
     </div>
   )
 }
